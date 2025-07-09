@@ -1,112 +1,47 @@
 # 🎂 Age Calculator Web App
 
-A responsive and visually appealing web application that allows users to calculate their **exact age** in years, months, and days. Built with **HTML, CSS (pastel + glassmorphism UI)** and **JavaScript**, this two-page project enhances both user experience and interaction using modern frontend practices.
+A clean and responsive two-page web app that calculates your exact age in **years, months, and days** using JavaScript. Styled using soft pastel colors and glassmorphism for a modern, elegant look.
 
 ## 🔗 Live Demo
-> [Click here to view live](https://yourusername.github.io/age-calculator/) <!-- ← Replace with your actual link -->
+[Click here to view live](https://yourusername.github.io/age-calculator/) <!-- replace with your GitHub Pages link -->
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-- ✨ Pastel-themed glassmorphism user interface
-- 📆 User-friendly date picker for Date of Birth
-- 📊 Context-aware result display based on age range
-- 💡 Smooth transition from Welcome to Calculator page
-- 🎉 Mobile responsive layout
+- Welcome screen with pastel gradient UI
+- Age calculator with DOB input
+- Accurate age breakdown (years, months, days)
+- Context-aware age message (e.g. "Enjoy your youth! ✨")
+- Mobile-friendly and responsive
 
 ---
 
 ## 🧱 Tech Stack
 
-| Layer        | Tools Used          |
-|--------------|---------------------|
-| Structure     | HTML5               |
-| Styling       | CSS3 (flexbox, pastel gradients, glassmorphism) |
-| Logic         | Vanilla JavaScript (DOM + Date object) |
+- **HTML** for structure  
+- **CSS** for pastel-themed design and layout  
+- **JavaScript** for age logic and interactivity
 
 ---
 
-## 📁 File Structure
+## 📁 File Overview
 
-```
-📦 Age-Calculator-Web
-├── index.html           # Welcome page
-├── calculator.html      # Main age calculator interface
-├── style.css            # Shared pastel glassmorphism styles
-└── script.js            # JavaScript logic for age calculation
-```
 
 ---
 
 ## 🖼️ Screenshots
 
-### Welcome Page
-![Welcome Page](your-image-link-here)
+### ✅ Welcome Page  
+![Welcome Page](![Screenshot 2025-07-09 200013](https://github.com/user-attachments/assets/a9038461-8b3b-4f43-87c0-5e823d14cf2d)
+)
 
-### Calculator Page
-![Calculator Page](your-image-link-here)
-
----
-
-## 📄 Code Overview
-
-### `index.html` (Welcome Page)
-
-- Displays a welcoming message in a pastel background.
-- A call-to-action button navigates to `calculator.html`.
-
-```html
-<a href="calculator.html" class="btn">Let's Find Out 🎉</a>
-```
-
----
-
-### `calculator.html` (Age Calculator Page)
-
-- Includes a date input field for the user’s Date of Birth.
-- On submission, runs a JavaScript function to compute age.
-- Outputs contextual feedback like:
-  - "Enjoy your youthful days ✨"
-  - "Such wonderful life experience 🌟"
-
----
-
-### `script.js` (JavaScript Logic)
-
-```js
-const age = calculateAge(dob, today);
-document.getElementById("result").innerHTML = `🎉 You are ${age.years} years, ${age.months} months, and ${age.days} days old.`;
-```
-
-- Validates input
-- Calculates exact age using `Date` object
-- Displays contextual messages based on age group
-
----
-
-## 🔧 How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/age-calculator.git
-   cd age-calculator
-   ```
-
-2. Open `1st draft.html` in your browser:
-   ```bash
-   start index.html
-   ```
-
----
-
-## 🙋‍♀️ Author
-
-**P. Anjali**  
-Passionate frontend enthusiast, building user-first, beautiful web tools with clean code and vibrant UI.
+### ✅ Age Calculator Page  
+![Calculator Page](![Screenshot 2025-07-09 195958](https://github.com/user-attachments/assets/15be6a26-46f9-4293-84ce-c5134c36f782)
+)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is **not licensed**. It is created for personal and educational use only.
