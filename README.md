@@ -33,10 +33,10 @@ A clean and responsive two-page web app that calculates your exact age in **year
 ## 🖼️ Screenshots
 
 ### ✅ Welcome Page  
-![Welcome Page](https://github.com/Anjali-2209/codealpha_tasks/blob/main/welcome.png)
+![Welcome Page](https://github.com/Anjali-2209/codealpha_tasks/blob/main/welcome.png?raw=true)
 
 ### ✅ Calculator Page  
-![Calculator Page](https://github.com/Anjali-2209/codealpha_tasks/blob/main/calculator.png)
+![Calculator Page](https://github.com/Anjali-2209/codealpha_tasks/blob/main/calculator.png?raw=true)
 ---
 
 ## 📜 License
